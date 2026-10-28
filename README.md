@@ -55,7 +55,7 @@
 **🚕 [FoxGo — Ride-hailing platform](https://github.com/foxxiee04/Cab-Booking-System-Project)** &nbsp;`Feb – May 2026`
 <br/>3 React apps · 11 Node/TS microservices · FastAPI AI service · RabbitMQ + gRPC · Redis GEO dispatch · MoMo/VNPay · Docker Swarm on AWS EC2 · Prometheus/Grafana/Loki
 
-**🤖 AgentOps — AI workflow automation platform** &nbsp;`Jun – Jul 2026`
+**🤖 [AgentOps — AI workflow automation platform](https://github.com/foxxiee04/AgentOps-AI-Agent-Workflow-Automation-Platform)** &nbsp;`Jun – Jul 2026`
 <br/>Visual workflow builder (5 node types) · RBAC & versioning · Kafka with 4 worker types (orchestration, AI inference, tools, notifications) · schema-validated AI agent nodes · OpenTelemetry tracing
 
 ---
