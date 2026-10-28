@@ -23,50 +23,34 @@
 
 <p align="center"><img src="https://skillicons.dev/icons?i=ts,react,nextjs,redux,tailwind,nodejs,nestjs,express,fastapi,py,prisma,postgres,mongodb,redis,rabbitmq,kafka&perline=8" /></p>
 
-- **Multi-app frontends & visual editors** — React · Next.js · Redux Toolkit · Tailwind · React Flow
-  <br/><sub>↳ FoxGo (customer / driver / admin apps) · AgentOps (workflow builder)</sub>
-- **REST & gRPC APIs with auth and docs** — Node.js · NestJS · Express · JWT · Swagger/OpenAPI
-  <br/><sub>↳ FoxGo · AgentOps</sub>
-- **Microservices with database-per-service** — PostgreSQL + Prisma · MongoDB · Redis
-  <br/><sub>↳ FoxGo (11 services)</sub>
-- **Event-driven communication** — RabbitMQ · Apache Kafka · outbox & idempotency
-  <br/><sub>↳ FoxGo (booking → ride → payment → wallet) · AgentOps (4 worker types)</sub>
-- **Realtime features** — Socket.IO · Redis GEO
-  <br/><sub>↳ FoxGo (driver matching, live tracking, in-trip chat)</sub>
-- **Payment integration** — MoMo & VNPay sandbox · IPN callbacks
-  <br/><sub>↳ FoxGo</sub>
+- **Frontends & visual editors** — React · Next.js · Redux Toolkit · Tailwind · React Flow
+- **REST & gRPC APIs** — Node.js · NestJS · Express · JWT · Swagger/OpenAPI
+- **Microservices & data** — PostgreSQL + Prisma · MongoDB · Redis · database-per-service
+- **Event-driven systems** — RabbitMQ · Apache Kafka · outbox & idempotency
+- **Realtime** — Socket.IO · Redis GEO
+- **Payments** — MoMo & VNPay integration · IPN callbacks
 
 ### 2 · AI — *make the product smarter*
 
-- **AI agent nodes with reliable output** — OpenAI API · prompt templating · schema-validated JSON
-  <br/><sub>↳ AgentOps</sub>
-- **Retrieval-augmented chatbots** — RAG · FAISS · embeddings
-  <br/><sub>↳ FoxGo AI service</sub>
-- **ML models served behind an API** — scikit-learn · FastAPI
-  <br/><sub>↳ FoxGo (ETA, accept-probability, wait-time prediction)</sub>
-- **Tool use & multi-agent orchestration** — MCP · multi-agent systems
-  <br/><sub>↳ AI Thực Chiến program</sub>
-- **AI that is safe and measurable in production** — LLM evaluation · guardrails · usage tracking · rule-based fallback
-  <br/><sub>↳ AgentOps · FoxGo</sub>
+- **LLM integration** — OpenAI API · prompt templating · structured JSON output
+- **Retrieval-augmented generation** — RAG · FAISS · embeddings
+- **Machine learning** — scikit-learn · model serving with FastAPI
+- **Agents** — AI agents · tool use · MCP · multi-agent systems
+- **Production AI** — LLM evaluation · guardrails · usage tracking · fallback strategies
 
 ### 3 · DevOps & Cloud — *ship it and keep it running*
 
 <p align="center"><img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,aws,githubactions,nginx,prometheus,grafana,linux" /></p>
 
-- **Containerize & orchestrate a multi-service stack** — Docker · Compose · Docker Swarm
-  <br/><sub>↳ FoxGo</sub>
-- **Cloud deployment behind a reverse proxy** — AWS EC2 · AWS ECR · Nginx
-  <br/><sub>↳ FoxGo</sub>
-- **CI/CD from test to deploy** — GitHub Actions (matrix builds, SSH deploy)
-  <br/><sub>↳ FoxGo · AgentOps</sub>
-- **Infrastructure as code** — Terraform · Kubernetes manifests
-  <br/><sub>↳ AgentOps</sub>
-- **Observability: metrics, logs, traces** — Prometheus · Grafana · Loki · OpenTelemetry
-  <br/><sub>↳ FoxGo · AgentOps</sub>
+- **Containers & orchestration** — Docker · Docker Compose · Docker Swarm · Kubernetes
+- **Cloud** — AWS EC2 · AWS ECR · Nginx
+- **CI/CD** — GitHub Actions
+- **Infrastructure as code** — Terraform
+- **Observability** — Prometheus · Grafana · Loki · OpenTelemetry
 
 ---
 
-## 📦 Projects behind the map
+## 📦 Featured projects
 
 **🚕 [FoxGo — Ride-hailing platform](https://github.com/foxxiee04/Cab-Booking-System-Project)** &nbsp;`Feb – May 2026`
 <br/>3 React apps · 11 Node/TS microservices · FastAPI AI service · RabbitMQ + gRPC · Redis GEO dispatch · MoMo/VNPay · Docker Swarm on AWS EC2 · Prometheus/Grafana/Loki
@@ -83,13 +67,7 @@
 An intensive, project-driven program focused on taking AI from demo to production:
 a 15-day core phase, then the **AI Infrastructure & Data** specialization track.
 
-| What I practiced | How it shows up in my work |
-|---|---|
-| AI infrastructure & data (specialization) | Containerized AI services, Kafka-based AI inference workers, IaC with Terraform/Kubernetes, tracing with OpenTelemetry |
-| LLM integration & structured output | Agent nodes in AgentOps return schema-validated JSON |
-| Retrieval-augmented generation | RAG support chatbot in FoxGo's AI service |
-| Agents, tool use & MCP | Multi-step agent workflows with tool execution |
-| Evaluation & guardrails | Measuring output quality, adding fallbacks when AI fails |
+**Practiced:** LLM integration & structured output · RAG · AI agents, tool use & MCP · evaluation & guardrails · AI infrastructure & data pipelines
 
 ---
 
